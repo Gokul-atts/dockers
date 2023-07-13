@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - name: deploy
-        uses: actions/checkout@v2
-
       - name: Login to Ducker Hub
         uses: docker/login-action@v1
         with:
